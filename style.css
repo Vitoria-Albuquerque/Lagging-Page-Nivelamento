@@ -1,0 +1,36 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.custom-logo{
+    height: 60px;  
+  }
+#featurette-image{
+    height: 80px;
+}  
+.card-body{
+    margin-bottom: 10px;
+}
+.btn-card{
+    background-color:  #eaaf1b ;
+}
+.btn-card:hover{
+    background-color: #9f7610;
+    transition: 0.5s;
+}
+/* Estilize o rodapé para torná-lo fixo na parte inferior */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+}
+
